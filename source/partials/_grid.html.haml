@@ -5,4 +5,4 @@
         .callout{"data-equalizer-watch" => "bla"}
           %h4= project[:name]
           %h5= project[:description]
-          %p= project[:github]
+          %a{href: project[:github]}= project[:github]

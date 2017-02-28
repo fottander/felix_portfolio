@@ -70,10 +70,6 @@ $transition: all .35s ease-in-out;
       letter-spacing: 1px;
       transition: $transition;
 
-      &.is-active {
-        background: rgba(250,250,250,$subnav-link-opacity);
-      }
-
       &:hover {
         background: rgba(250,250,250,$subnav-link-opacity);
         transition: $transition;
@@ -86,8 +82,12 @@ $transition: all .35s ease-in-out;
   HERO
   **************************************/
 .hero {
-  color: #2DAFA1
 }
+  h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #2DAFA1
+  }
 
 /**************************************
   GRID
@@ -105,15 +105,15 @@ $transition: all .35s ease-in-out;
 
 .footer {
   background-color: #292c2f;
-  color: #ffffff;
+  color: #ffe;
   text-align: center;
   font-size: 1.2rem;
   padding: 3rem; }
   .footer p.slogan {
-    color: #ffffff;
+    color: #ffe;
     font-size: 1.8rem;
     margin: 0 0 1rem; }
   .footer h4 {
-    color: #ffffff;
+    color: #ffe;
     font-size: 1.5rem;
     margin: 0; }
