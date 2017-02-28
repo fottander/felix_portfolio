@@ -1,0 +1,7 @@
+- name: FizzBuzz Ruby
+  description: The classic game FizzBuzz, built with Ruby code.
+  github: https://github.com/fottander/fizz_buzz.rb
+
+- name: FizzBuzz JS
+  description: The classic game FizzBuzz, built with Javascript.
+  github: https://github.com/fottander/fizz_buzz_js

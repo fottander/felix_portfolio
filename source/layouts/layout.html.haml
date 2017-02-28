@@ -1,0 +1,20 @@
+%html
+  %head
+    = stylesheet_link_tag 'foundation.css'
+    = stylesheet_link_tag 'site.css.scss'
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{content: "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{content: "utf-8"}/
+    %meta{content: "width=device-width, initial-scale=1, shrink-to-fit=no", name: "viewport"}/
+    / Use title if it's in the page YAML frontmatter
+    %title= current_page.data.title || "Middleman"
+    = stylesheet_link_tag "site"
+    = javascript_include_tag "site"
+  %body{class: page_classes}
+    = partial 'partials/nav'
+    = partial 'partials/hero'
+    = yield
+    = partial 'partials/footer'
+    = javascript_include_tag "jquery.js"
+    = javascript_include_tag "what-input.js"
+    = javascript_include_tag "foundation.js"
