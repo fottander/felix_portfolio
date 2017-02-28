@@ -5,3 +5,7 @@
 - name: FizzBuzz JS
   description: The classic game FizzBuzz, built with Javascript.
   github: https://github.com/fottander/fizz_buzz_js
+
+- name: Bmi Calculator
+  description: Probably the best Bmi calculator out there!
+  github: https://github.com/fottander/bmi-challenge
