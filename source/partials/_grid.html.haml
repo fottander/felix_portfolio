@@ -1,5 +1,8 @@
 .projects
   - data.projects.each do |project|
-    %h4= project[:name]
-    %p= project[:description]
-    %p= project[:github]
+    #test-eq.row{"data-equalize-on" => "medium", "data-equalizer" => ""}
+      .medium-5.medium-centered.columns
+        .callout{"data-equalizer-watch" => ""}
+          %h4= project[:name]
+          %p= project[:description]
+          %p= project[:github]
