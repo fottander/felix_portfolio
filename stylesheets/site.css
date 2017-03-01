@@ -1,0 +1,97 @@
+body {
+  background-color: #ffffff;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  padding: 0vh 0rem;
+  text-align: center; }
+
+a {
+  color: rgba(0, 0, 0, 0.7); }
+  a:focus, a:hover {
+    color: rgba(0, 0, 0, 0.6); }
+
+.middleman-logo {
+  margin-bottom: 1rem;
+  width: 10rem; }
+
+/**************************************
+NAVHEADER
+**************************************/
+.header {
+  text-align: center;
+  background: #292c2f;
+  background-size: cover;
+  position: relative;
+  overflow: visible;
+  padding-top: 1rem;
+  padding-bottom: 3.65rem; }
+  .header .headline {
+    color: #ffe; }
+
+.header-subnav {
+  float: none;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  bottom: 0;
+  width: 100%; }
+  .header-subnav li {
+    float: none;
+    display: inline-block; }
+    .header-subnav li a {
+      padding: 0.9rem 1rem;
+      font-size: 1rem;
+      color: #ffe;
+      text-transform: uppercase;
+      display: block;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: all 0.35s ease-in-out; }
+      .header-subnav li a:hover {
+        background: rgba(250, 250, 250, 0.15);
+        transition: all 0.35s ease-in-out; }
+
+/**************************************
+  HERO
+  **************************************/
+h1 {
+  font-size: 130px;
+  letter-spacing: 10px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: #2DAFA1; }
+
+h2 {
+  padding-top: 5px;
+  padding-bottom: 40px;
+  color: #2DAFA1; }
+
+/**************************************
+  GRID
+  **************************************/
+.projects h4 {
+  color: #E78529; }
+
+.callout {
+  -webkit-border-radius: 10px; }
+
+/**************************************
+  FOOTER
+  **************************************/
+.footer {
+  background-color: #292c2f;
+  color: #ffe;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 3rem; }
+
+.footer p.slogan {
+  color: #ffe;
+  font-size: 1.8rem;
+  margin: 0 0 1rem; }
+
+.footer h4 {
+  color: #ffe;
+  font-size: 1.5rem;
+  margin: 0; }
