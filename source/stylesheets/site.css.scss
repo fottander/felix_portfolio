@@ -83,9 +83,18 @@ $transition: all .35s ease-in-out;
   **************************************/
 .hero {
 }
+  h1 {
+    font-size: 130px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: #2DAFA1
+  }
+  
   h2 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 40px;
     color: #2DAFA1
   }
 

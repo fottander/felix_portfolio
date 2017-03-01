@@ -1,7 +1,8 @@
 .projects
-  - data.projects.each do |project|
-    #test-eq.row{"data-equalize-on" => "medium", "data-equalizer" => "bla"}
-      .medium-6.medium-centered.columns
+  %h4 My Projects
+  .row{"data-equalize-on" => "medium", "data-equalizer" => "bla"}
+    - data.projects.each do |project|
+      .large-6.medium-centered.columns
         .callout{"data-equalizer-watch" => "bla"}
           %h4= project[:name]
           %h5= project[:description]
